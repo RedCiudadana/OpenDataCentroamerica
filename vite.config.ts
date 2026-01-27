@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/',
+  publicDir: 'public',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
@@ -12,10 +13,6 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-  },
-  server: {
-    headers: {
-      'Cache-Control': 'public, max-age=3600',
-    },
+    copyPublicDir: true,
   },
 });
