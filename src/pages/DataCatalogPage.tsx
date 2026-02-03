@@ -110,7 +110,7 @@ export function DataCatalogPage() {
       {/* Original page content */}
       <div className="py-32 px-4" style={{ backgroundImage: `url(${Slider})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Catálogo Datos Abiertos</h1>
+          <h1 className="text-4xl text-white font-bold mb-4">Catálogo Datos Abiertos</h1>
           <p className="text-xl text-blue-100 mb-8">
             Accede a datos públicos estratégicos de Centroamérica con estándares internacionales de metadatos, documentación completa y formatos reutilizables
           </p>
